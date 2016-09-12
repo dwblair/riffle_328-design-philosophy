@@ -66,7 +66,6 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 
 <img src="pics/piglet_cap.jpg" width=300>
 
-
 <img src="pics/piglet.png" width=300>
 
 <img src="pics/mchck_radio.jpg" width=300>
