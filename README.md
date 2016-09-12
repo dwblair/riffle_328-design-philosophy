@@ -1,8 +1,30 @@
 # Riffle -- Design Philosophy
 
+<img src="pics/riffle_frozen.jpg" width=300> 
+
+https://github.com/bgamari/riffle
+https://github.com/bgamari/riffle/blob/fab/hardware/front.png
+<img src="pics/riffle_orig_front.png" width=300> 
+<a href="pics/riffle_orig_schematics.pdf">riffle_original_schematics</a>
+
+# Motivation
+
+- Water monitoring is very important
+- Currently, good solutions exist -- conductivity, temperature, depth
+- NIST, rugged, reliable
+
+But:
+- Proprietary data format means data is hard to share
+- Dongles and licenses increase cost and fragility (high school teacher left system)
+- New sensors are becoming available and can be prototyped
+- Arduino is inspiring as open source community -- innovating, sharing
+- Can we develop a system for getting datalogger electronics into the field easily, and interfacing with new electronics?
+- Can we use more accessilbe materials so that more people can be involved?
+
+# Overall summary
 
 - design philosophy
-the bottle -- deployment, 'detrivore' philosophy
+
 the sd card -- data
 protoboard -- folks can prototype their own versions of the board
 rechargeable battery -- easy for folks to reuse batteries
@@ -12,13 +34,12 @@ precision RTC -- needed for environmental measurements
 mosfets -- to make it low power
 battery level , 3.3v
 
-https://github.com/bgamari/riffle
-https://github.com/bgamari/riffle/blob/fab/hardware/front.png
-<img src="pics/riffle_orig_front.png" width=300> 
-<a href="pics/riffle_orig_schematics.pdf">riffle_original_schematics</a>
-
 
 # Problem definition
+
+https://publiclab.org/notes/cfastie/07-20-2014/can-open-source-beat-this
+http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
+
 - HOBO datalogger used widely; YSI
 - Costs
 - Want something extensible
@@ -27,12 +48,38 @@ https://github.com/bgamari/riffle/blob/fab/hardware/front.png
 - Wanted to make it easy to deploy -- pvc, water bottle, some easy and cheap enclosure
 - Easy to share data -- sd card
 
+<img src="pics/hobot_conduct.png" width=300>
+<img src="pics/hobot_depth.png" width=300>
+<img src="pics/hobot_dongles.png" width=300>
+<img src="pics/hobot_pendant.png" width=300>
+
 # Form factor and enclosure
 - Wanted to enable water bottle as ‘easiest option’
 - Also allows for thin PVC
+- the bottle -- deployment, 'detrivore' philosophy
+
+<img src="pics/piglet_adhesive.png" width=300>
+
+<img src="pics/piglet_cap_a.jpg" width=300>
+
+<img src="pics/piglet_cap.jpg" width=300>
+
+
+<img src="pics/piglet.png" width=300>
+
+<img src="pics/mchck_radio.jpg" width=300>
+
+<img src="pics/riffle_orig_front.png" width=300>
+
+<img src="pics/mchck_oblique.jpg" width=300>
+
+<img src="pics/ben_laura.png" width=300>
+
+
 
 https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
 https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
+
 
 <img src="pics/bottle_enclosure.png" width=300>
 
@@ -60,22 +107,7 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 
 <img src="pics/riffle-ito-parts.png" width=300>
 
-<img src="pics/piglet_adhesive.png" width=300>
 
-<img src="pics/piglet_cap_a.jpg" width=300>
-
-<img src="pics/piglet_cap.jpg" width=300>
-
-
-<img src="pics/piglet.png" width=300>
-
-<img src="pics/mchck_radio.jpg" width=300>
-
-<img src="pics/riffle_orig_front.png" width=300>
-
-<img src="pics/mchck_oblique.jpg" width=300>
-
-<img src="pics/ben_laura.png" width=300>
 
 
 # What drove IC / placement choices
@@ -101,6 +133,12 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 https://publiclab.org/notes/donblair/09-10-2014/water-quality-coqui-voicemails
 
 WebJack
+
+# Other nice projects
+
+Mayfly
+Kina Smith
+
 
 
 
