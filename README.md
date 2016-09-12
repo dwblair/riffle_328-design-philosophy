@@ -50,10 +50,10 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 - Wanted to make it easy to deploy -- pvc, water bottle, some easy and cheap enclosure
 - Easy to share data -- sd card
 
-<img src="pics/hobo_conduct.png" width=300>
-<img src="pics/hobo_depth.png" width=300>
-<img src="pics/hobo_dongles.png" width=300>
-<img src="pics/hobo_pendant.png" width=300>
+<img src="pics/hobo_conduct.jpg" width=300>
+<img src="pics/hobo_depth.jpg" width=300>
+<img src="pics/hobo_dongles.jpg" width=300>
+<img src="pics/hobo_pendant.jpg" width=300>
 
 # Form factor and enclosure
 - Wanted to enable water bottle as ‘easiest option’
