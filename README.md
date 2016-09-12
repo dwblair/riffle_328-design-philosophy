@@ -4,7 +4,9 @@
 
 https://github.com/bgamari/riffle
 https://github.com/bgamari/riffle/blob/fab/hardware/front.png
+
 <img src="pics/riffle_orig_front.png" width=300> 
+
 <a href="pics/riffle_orig_schematics.pdf">riffle_original_schematics</a>
 
 # Motivation
@@ -48,10 +50,10 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 - Wanted to make it easy to deploy -- pvc, water bottle, some easy and cheap enclosure
 - Easy to share data -- sd card
 
-<img src="pics/hobot_conduct.png" width=300>
-<img src="pics/hobot_depth.png" width=300>
-<img src="pics/hobot_dongles.png" width=300>
-<img src="pics/hobot_pendant.png" width=300>
+<img src="pics/hobo_conduct.png" width=300>
+<img src="pics/hobo_depth.png" width=300>
+<img src="pics/hobo_dongles.png" width=300>
+<img src="pics/hobo_pendant.png" width=300>
 
 # Form factor and enclosure
 - Wanted to enable water bottle as ‘easiest option’
