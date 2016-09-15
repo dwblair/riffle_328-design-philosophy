@@ -18,26 +18,25 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 <img src="pics/hobo_dongles.jpg" width=300>
 <img src="pics/hobo_pendant.jpg" width=300>
 
-**Developing an open source alternative.**  The initial idea, then, was to leverage the world of open source hardware electronics, and see if we could build a water monitor alternative that would use open data format and commonly-available data storage formats (e.g. SD cards).   
-
-**Accessible materials.** Further, the hope was to develop hardware and enclosure designs that would make it easy for people to add on new sensors, or try new monitoring approaches.  Rather than make a custom, expensive enclosure, we hoped to use inexpensive, commonly available materials as much as possible, to allow for easy modification and sourcing.  
-
-
 # Design Goals
 
-- Costs
-- Want something extensible
-- Something that can connect to the hobby electronics movement
-- Use existing code with minimal fuss / muss
-- Wanted to make it easy to deploy -- pvc, water bottle, some easy and cheap enclosure
-- Easy to share data -- sd card
+After extensive discussions with Mark, Mary Martin, Patrick Herron, and several others in the community, we decided to focus our project around some particular design goals:
 
+**Developing an open hardware alternative.**  We hoped to leverage the world of open source hardware electronics, and see if we could build a basic water monitor device that allowed for easy hardware modification and reprogramming, and easy for people to add new sensors.  
+
+**Open and accessible data formats.** We also planned to design the device so that it could output data in a common data format (CSV), using accessible data storage media (SD cards).  
+
+**Accessible enclosure materials.** We wanted to use accessible, inexpensive materials in the enclsoure design, to make it easy for people to make repairs, custom modifications, using locally-avaiable materials.  
+
+**Establishing a community of users.** Our hope, too, was to establish a community around such a device, so that hardware users could support one another's efforts, help debug code, and share new designs.  
 
 # First Iteration: ARM & PVC
 
-- Wanted to enable water bottle as ‘easiest option’
-- Also allows for thin PVC
-- the bottle -- deployment, 'detrivore' philosophy
+- McHCK project
+- Inexpensive
+- Fully open source toolchain
+- Advanced, low-power ARM chip, built-in USB
+- PVC enclosure -- easy waterproofing
 
 <img src="pics/piglet_adhesive.png" width=300>
 
@@ -57,8 +56,27 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 
 # Second Iteration: Atmel & Bottle
 
+## enclosure 
+- Pro mini -- fits in water bottle mouth
+- PVC was difficult to assemble / source parts for
+- Found that two screws might be enough for conductivity
+- Water bottle already clearly water tight
+- Seemed like a nice design 
+- Wanted to enable water bottle as ‘easiest option’
+- Also allows for thin PVC
+- the bottle -- deployment, 'detrivore' philosophy
+
 https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
 https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
+
+
+- screws 
+
+- rice
+
+- circuit board inside cap
+
+- battery -- found nice one from adafruit
 
 
 <img src="pics/bottle_enclosure.png" width=300>
