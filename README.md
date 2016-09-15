@@ -63,8 +63,15 @@ https://github.com/bgamari/riffle/blob/fab/hardware/front.png
 ## enclosure and circuit board shape
 
 Overall:
+- PVC was difficult to assemble / source parts for
+- Pro mini -- fits in water bottle mouth
 
+Thus:
 Main Bottle for circuit board
+- Water bottle already clearly water tight
+- the bottle -- deployment, 'detrivore' philosophy
+- Found that two screws might be enough for conductivity
+- Wanted to enable water bottle as ‘easiest option’
 
 Push all sensors to external board, to allow for easy iteration / modification
 
@@ -78,15 +85,6 @@ Water bottle also engaging -- riffle label
 
 Show pics of bottle and of separate protoboard
 
-
-- Pro mini -- fits in water bottle mouth
-- PVC was difficult to assemble / source parts for
-- Found that two screws might be enough for conductivity
-- Water bottle already clearly water tight
-- Seemed like a nice design 
-- Wanted to enable water bottle as ‘easiest option’
-- Also allows for thin PVC
-- the bottle -- deployment, 'detrivore' philosophy
 
 https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
 https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
@@ -111,8 +109,6 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 - audio cables
 
 - research notes / pics for all of these things 
-
-
 
 <img src="pics/rice.jpg" width=300> 
 
@@ -139,7 +135,6 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 <img src="pics/riffle-ito-parts.png" width=300>
 
 <img src="pics/riffle_frozen.jpg" width=300> 
-
 
 <img src="pics/riffle_orig_front.png" width=300> 
 
