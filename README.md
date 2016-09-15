@@ -54,9 +54,31 @@ After extensive discussions with Mark, Mary Martin, Patrick Herron, and several 
 
 <img src="pics/ben_laura.png" width=300>
 
+https://github.com/bgamari/riffle
+https://github.com/bgamari/riffle/blob/fab/hardware/front.png
+
+
 # Second Iteration: Atmel & Bottle
 
-## enclosure 
+## enclosure and circuit board shape
+
+Overall:
+
+Main Bottle for circuit board
+
+Push all sensors to external board, to allow for easy iteration / modification
+
+Cap as 'sensor platform'
+
+Rubber stopper alternative
+
+Still allow for PVC enclsoure
+
+Water bottle also engaging -- riffle label
+
+Show pics of bottle and of separate protoboard
+
+
 - Pro mini -- fits in water bottle mouth
 - PVC was difficult to assemble / source parts for
 - Found that two screws might be enough for conductivity
@@ -69,17 +91,28 @@ After extensive discussions with Mark, Mary Martin, Patrick Herron, and several 
 https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
 https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
 
+<img src="pics/bottle_enclosure.png" width=300>
 
 - screws 
 
 - rice
+
+<img src="pics/bottle_enclosure.png" width=300>
 
 - circuit board inside cap
 
 - battery -- found nice one from adafruit
 
 
-<img src="pics/bottle_enclosure.png" width=300>
+- rubber stopper w/ wires
+
+- label for bottle -- engagement
+
+- audio cables
+
+- research notes / pics for all of these things 
+
+
 
 <img src="pics/rice.jpg" width=300> 
 
@@ -107,14 +140,12 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 
 <img src="pics/riffle_frozen.jpg" width=300> 
 
-https://github.com/bgamari/riffle
-https://github.com/bgamari/riffle/blob/fab/hardware/front.png
 
 <img src="pics/riffle_orig_front.png" width=300> 
 
 <a href="pics/riffle_orig_schematics.pdf">riffle_original_schematics</a>
 
-## What drove IC / placement choices
+## IC / placement choices
 - Atmel vs ARM
 - CH340 -- cheap and easy (but not easy to source)
 - DS3231 -- want temp-compensated RTC to line up timestamps
@@ -123,8 +154,10 @@ https://github.com/bgamari/riffle/blob/fab/hardware/front.png
 - Hardware interrupts D2 and D3 for any related applications (freq-based measurements like conductivity and depth)
 - EEPROM for storing configurations
 - Mounting holes for gen purpose mounting
+- Show highlights / pics
 
-## Power management / choices
+## Power management choices
+
 - Battery charging circuit
 - But requires protective diode to allow for disconnect from USB Serial chip
 - So, want to avoid voltage drop
