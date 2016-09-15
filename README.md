@@ -1,48 +1,30 @@
 # Riffle -- Design Philosophy
 
-<img src="pics/riffle_frozen.jpg" width=300> 
+The Riffle -- an open source water monitor -- is a design that has evolved in the last few years through various shapes, feature sets, processors, and applications.  This document is an attempt to capture some of the main ideas and motivations behind the design, and to capture some of its major iterations.
 
-https://github.com/bgamari/riffle
-https://github.com/bgamari/riffle/blob/fab/hardware/front.png
+# Initial Motivation
 
-<img src="pics/riffle_orig_front.png" width=300> 
+The initial concept for the Riffle was driven by conversations with Mark Green, a Professor at Plymouth State, about the current technologies used for water monitoring. 
 
-<a href="pics/riffle_orig_schematics.pdf">riffle_original_schematics</a>
-
-# Motivation
-
-- Water monitoring is very important
-- Currently, good solutions exist -- conductivity, temperature, depth
-- NIST, rugged, reliable
-
-But:
-- Proprietary data format means data is hard to share
-- Dongles and licenses increase cost and fragility (high school teacher left system)
-- New sensors are becoming available and can be prototyped
-- Arduino is inspiring as open source community -- innovating, sharing
-- Can we develop a system for getting datalogger electronics into the field easily, and interfacing with new electronics?
-- Can we use more accessilbe materials so that more people can be involved?
-
-# Overall summary
-
-- design philosophy
-
-the sd card -- data
-protoboard -- folks can prototype their own versions of the board
-rechargeable battery -- easy for folks to reuse batteries
-other battery port -- avoid the diode
-eeprom -- store setting
-precision RTC -- needed for environmental measurements
-mosfets -- to make it low power
-battery level , 3.3v
-
-
-# Problem definition
+**Proprietary data chain.**  One of the key issues with current water monitoring technologies is that they are typically designed to record data in a proprietary, encrypted format;  the physical hardware almost always requires a special 'dongle' for conveying the data to a PC for analysis and storage; and finally, the software required to decrypt the data is typically expensive, and closed-source, meaning that user modifications or extensions are impossible.  
 
 https://publiclab.org/notes/cfastie/07-20-2014/can-open-source-beat-this
 http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 
 - HOBO datalogger used widely; YSI
+
+<img src="pics/hobo_conduct.jpg" width=300>
+<img src="pics/hobo_depth.jpg" width=300>
+<img src="pics/hobo_dongles.jpg" width=300>
+<img src="pics/hobo_pendant.jpg" width=300>
+
+**Developing an open source alternative.**  The initial idea, then, was to leverage the world of open source hardware electronics, and see if we could build a water monitor alternative that would use open data format and commonly-available data storage formats (e.g. SD cards).   
+
+**Accessible materials.** Further, the hope was to develop hardware and enclosure designs that would make it easy for people to add on new sensors, or try new monitoring approaches.  Rather than make a custom, expensive enclosure, we hoped to use inexpensive, commonly available materials as much as possible, to allow for easy modification and sourcing.  
+
+
+# Design Goals
+
 - Costs
 - Want something extensible
 - Something that can connect to the hobby electronics movement
@@ -50,12 +32,9 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 - Wanted to make it easy to deploy -- pvc, water bottle, some easy and cheap enclosure
 - Easy to share data -- sd card
 
-<img src="pics/hobo_conduct.jpg" width=300>
-<img src="pics/hobo_depth.jpg" width=300>
-<img src="pics/hobo_dongles.jpg" width=300>
-<img src="pics/hobo_pendant.jpg" width=300>
 
-# Form factor and enclosure
+# First Iteration: ARM & PVC
+
 - Wanted to enable water bottle as ‘easiest option’
 - Also allows for thin PVC
 - the bottle -- deployment, 'detrivore' philosophy
@@ -76,7 +55,7 @@ http://www.forestry-suppliers.com/product_pages/Products.asp?mi=84781
 
 <img src="pics/ben_laura.png" width=300>
 
-
+# Second Iteration: Atmel & Bottle
 
 https://publiclab.org/notes/mathew/02-26-2015/sensors-in-soda-bottles
 https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-sensor-system
@@ -108,10 +87,16 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 
 <img src="pics/riffle-ito-parts.png" width=300>
 
+<img src="pics/riffle_frozen.jpg" width=300> 
 
+https://github.com/bgamari/riffle
+https://github.com/bgamari/riffle/blob/fab/hardware/front.png
 
+<img src="pics/riffle_orig_front.png" width=300> 
 
-# What drove IC / placement choices
+<a href="pics/riffle_orig_schematics.pdf">riffle_original_schematics</a>
+
+## What drove IC / placement choices
 - Atmel vs ARM
 - CH340 -- cheap and easy (but not easy to source)
 - DS3231 -- want temp-compensated RTC to line up timestamps
@@ -121,7 +106,7 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 - EEPROM for storing configurations
 - Mounting holes for gen purpose mounting
 
-# Power management / choices
+## Power management / choices
 - Battery charging circuit
 - But requires protective diode to allow for disconnect from USB Serial chip
 - So, want to avoid voltage drop
@@ -129,9 +114,22 @@ https://publiclab.org/notes/mathew/01-16-2015/sketching-a-waterproof-pop-bottle-
 - RTC alarm functionality 
 - Want very low power -- mosfet on external board, mosfet on SD card, mosfet on battery measurement
 
-# Audio out idea
+# Current Design Summary 
+
+the sd card -- data
+protoboard -- folks can prototype their own versions of the board
+rechargeable battery -- easy for folks to reuse batteries
+other battery port -- avoid the diode
+eeprom -- store setting
+precision RTC -- needed for environmental measurements
+mosfets -- to make it low power
+battery level , 3.3v
+
+# Aside:  555 and Audio out 
 
 https://publiclab.org/notes/donblair/09-10-2014/water-quality-coqui-voicemails
+
+Lots of notes on Coqui
 
 WebJack
 
