@@ -2,6 +2,10 @@
 
 The Riffle -- an open source water monitor -- is a design that has evolved in the last few years through various shapes, feature sets, processors, and applications.  This document is an attempt to capture some of the main ideas and motivations behind the design, and to capture some of its major iterations.
 
+More stuff here.
+
+Let's see how off it will update.  
+
 # Initial Motivation
 
 The initial concept for the Riffle was driven by conversations with Mark Green, a Professor at Plymouth State, about the current technologies used for water monitoring. 
@@ -182,7 +186,6 @@ WebJack
 # Other nice projects
 
 Mayfly
-Kina Smith
 
 
 
