@@ -128,7 +128,7 @@ The 3D printed end-cap was designed in OpenSCAD.
 <!--<img src="pics/piglet_cap.jpg" width=300>-->
 <img src="pics/piglet_cap_a.jpg" height=300>
 
-the associated electronics was held in place and sealed by potting it with epoxy.
+The associated electronics was held in place and sealed by potting it with epoxy.
 
 <img src="pics/piglet_adhesive.png" width=400>
 
