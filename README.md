@@ -2,7 +2,7 @@
 
 <!--<img src="pics/riffle_design_header.png" width=600>-->
 
-<img src="pics/riffle_header_2.png" width=600>
+<img src="pics/riffle_header_2.png" width=800>
 
 The [Riffle](http://publiclab.org/wiki/riffle) is a design for an open source hardware water monitor. The design began life as an [ARM-based datalogger board enclosed in PVC](https://github.com/bgamari/riffle); [Public Lab](http://publiclab.org/wiki/riffle) has supported development of an [Atmel328-based datalogger enclosed in a water bottle](https://github.com/OpenWaterProject/riffle_328).  
 
