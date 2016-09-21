@@ -219,8 +219,8 @@ The first Riffle design by Ben Gamari and Laura Dietz leveraged an open source m
 
 A datalogger design based on the McHck that adds an SD card and novel pinouts can be found in [Ben Gamari's Github repo](https://github.com/bgamari/riffle).
 
-<img src="pics/riffle_orig_front.png" width=400>
-<img src="pics/riffle_orig_nice.jpg" width=400>
+<img src="pics/riffle_orig_front.png" height=300>
+<img src="pics/riffle_orig_nice.jpg" height=300>
 
 
 While the McHck utilizes a fully open source toolchain for development, it is not yet compatible with the Arduino IDE, and thus seemed to us to be less accessible to a general audience. 
