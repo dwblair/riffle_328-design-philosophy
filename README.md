@@ -115,8 +115,8 @@ This material was thus an obvious first choice for the RIffle enclosure.  Our in
 
 We found such a minimal enclosure at our local hardware store, consisting of two screw end-caps and a connecting middle piece.
 
-<img src="pics/ben_laura_pvc.png" width=400>
-<img src="pics/mchck_oblique.jpg" width=300>
+<img src="pics/ben_laura_pvc.png" height=300>
+<img src="pics/mchck_oblique.jpg" hieght=300>
 
 The basic idea was then that the main datalogger electronics would sit inside the waterpoof enclosure; and we would 3D print a custom 'endcap' that would fit around the end of the PVC and house the sensor electronics. 
 
