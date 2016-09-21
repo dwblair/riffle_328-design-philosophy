@@ -341,8 +341,8 @@ To date, the default mode of data storage and retrieval on the Riffle has been t
 
 It will be important to test the current procedure for cutting power to the SD card, as it has been suggested that this approach may be 'out of spec' for SD cards, and lead to instabilities in reading / writing (and, perhaps, data loss).
 
-<img src="pics/sdcard.jpg" height=300>
-<img src="pics/insert_micro.jpg" height=300>
+<img src="pics/sdcard.jpg" height=250>
+<img src="pics/insert_micro.jpg" height=250>
 
 ### eeprom
 
