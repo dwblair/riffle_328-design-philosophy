@@ -366,8 +366,8 @@ Some salient examples of such technologies:
 
 - RFM69 is another radio protocol and associated hardware design that can typically transmit for hundreds of meters.  It has been available to the open source community for longer than the LoRa radios, so more features have been discovered / enabled (mesh networking, encryption, addressing). Typical broadcast frequences are in the 900 MHz or 400 MHz range. 
 
-<img src="pics/moteino_double.jpg" height=250
->
+<img src="pics/moteino_double.jpg" height=250>
+
 - The nRF24L01 is a popular low-cost radio, broadcasting at 2.4GHz.  The protocol and the frequency spectrum used result in inferior transmission characteristics when compared with LoRa and RFM69 above -- typical distances achieved are under 200 meters line-of-site.
 
 <img src="pics/nordic.jpg" height=250>
