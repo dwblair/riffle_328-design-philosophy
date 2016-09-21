@@ -309,8 +309,8 @@ To facilitate the deployment of prototype circuits with the Riffle, a ['protoboa
 
 This design makes it relatively easier to move a 'breadboarded' sensor design to the Riffle for deployment.
 
-<img src="pics/coqui_audio.jpg" width=400>
-<img src="pics/sniffle.jpg" width=400>
+<img src="pics/coqui_audio.jpg" height=300>
+<img src="pics/sniffle.jpg" height=300>
 
 Ultimately, plug-in sensor boards might come out of a workflow in which the sensor is protoyped on a breadboard, implemented on a protoboard and deploymed ... and then, when the circuit design has solidified, a custom PCB can be designed to facilitate circuit assembly:
 
