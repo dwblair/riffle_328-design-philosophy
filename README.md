@@ -167,8 +167,8 @@ Several variations on this water bottle enclosure were then developed. Some of t
 
 - Using screws through the bottle cap to monitor conductivity:
 
-<img src="pics/screws_a.jpg" width=300>
-<img src="pics/screws_b.jpg" width=300>
+<img src="pics/screws_a.jpg" height=300>
+<img src="pics/screws_b.jpg" height=300>
 <img src="pics/gatorade_screw.jpg" width=300>
 
 - Using a rubber stopper in lieu of a plastic bottle cap, in order to create a 'gasket' seal and allow for wires and other sensor materials to be sealed into an opening more readily:
