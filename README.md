@@ -199,8 +199,8 @@ In the course of Riffle development in the Public Lab community, other enclosure
 
 **3D printed enclosures**.  Rebeccah [posted a design](https://publiclab.org/notes/rebeccah/08-29-2016/riffle-device-water-conductivity-sensor) for a 3D printed enclosure that contained compartments for both the RIffle and a lithium ion battery;  it also has recesses for magnets to keep the enclosure shut: 
 
-<img src="pics/riffle_3d_b.png" width=300>
-<img src="pics/riffle_3d_d.png" width=300>
+<img src="pics/riffle_3d_b.png" height=300>
+<img src="pics/riffle_3d_d.png" height=300>
 
 Several other designs are likely possible.  We're eager to see further novel enclosure designs developed, tailored to particular applications and leveraging locally-available materials. 
 
