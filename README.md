@@ -416,7 +416,7 @@ The pins used were selected based on their ability to enable interfacing with se
 
 ### i2c
 
-Many sensors now use the i2c interface.  It's a convenient way of sharing several devices on the same bus. All devices on the i2c bus require only four lines -- the dedicated SDA and SCL lines, Power (3.3V for the Riffle), and GND.  
+Many sensors now use the [i2c](https://en.wikipedia.org/wiki/I%C2%B2C) interface.  It's a convenient way of sharing several devices on the same bus. All devices on the i2c bus require only four lines -- the dedicated SDA and SCL lines, Power (3.3V for the Riffle), and GND.  
 
 The BMP180, a pressure and temperature sensor, is an example of a common, inexpensive i2c chip that is easy to connect to the Riffle.
 
@@ -426,7 +426,7 @@ On the Riffle itself, the RTC chip and the EEPROM chip are themselves i2c device
 
 ### SPI
 
-SPI is a higher-speed interface.  The bus line requires more pins -- MISO, MOSI, and SCK, as well as PWR and GND -- and also necessitates running an additional signal line to every chip on the SPI bus that would like to communicate with the microcontroller.  While this means that pins for SPI devices run out quickly, it provides an advantage when sending high-speed signals to devices on the board -- the dedicated signal line means that addressing collisions are less likely.  This interface has been used in several low-power radio devices, including the LoRa, RFM69, and Nordic radio chips listed above.  The SPI interface was brought out at the end of the 2x7 Riffle header specifically to allow for connecting to low power SPI radio modules such as these. 
+Like i2c, [SPI](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) is a also a bus interface, but is optimized for higher data transfer rates. The bus line requires more pins -- MISO, MOSI, and SCK, as well as PWR and GND -- and also necessitates running an additional signal line to every chip on the SPI bus that would like to communicate with the microcontroller.  While this means that pins can quickly run out when being alloted for multiple SPI devices on the same bus, SPI provides an advantage when sending high-speed signals to devices on the board -- in effect, dedicated signal line means that addressing collisions are less likely.  This interface has been used in several low-power radio devices, including the LoRa, RFM69, and Nordic radio chips listed above.  The SPI interface was brought out at the end of the 2x7 Riffle header specifically to allow for connecting to low power SPI radio modules such as these. 
 
 ### RX / TX
 
