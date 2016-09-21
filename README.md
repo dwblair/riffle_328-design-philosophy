@@ -361,12 +361,11 @@ Recently, the focus on "IOT" technologies to enable remote sensor data to be ret
 Some salient examples of such technologies:
 
 - LoRa radio hardware is capable of transmitting for 1 km + in lightly wooded areas, and for several kilometers line-of sight, with more sophisticated antennae.  Typical broadcast frequences are in the 900 MHz or 400 MHz range. 
-- RFM69 is another radio protocol and associated hardware design that can typically transmit for hundreds of meters.  It has been available to the open source community for longer than the LoRa radios, so more features have been discovered / enabled (mesh networking, encryption, addressing). Typical broadcast frequences are in the 900 MHz or 400 MHz range. 
-- The nRF24L01 is a popular low-cost radio, broadcasting at 2.4GHz.  The protocol and the frequency spectrum used result in inferior transmission characteristics when compared with LoRa and RFM69 above -- typical distances achieved are under 200 meters line-of-site.
-
-<img src="pics/nordic.jpg" height=300>
 <img src="pics/lora.jpg" height=300>
-<img src="pics/moteino_double.jpg" height=300>
+- RFM69 is another radio protocol and associated hardware design that can typically transmit for hundreds of meters.  It has been available to the open source community for longer than the LoRa radios, so more features have been discovered / enabled (mesh networking, encryption, addressing). Typical broadcast frequences are in the 900 MHz or 400 MHz range. <img src="pics/moteino_double.jpg" height=300>
+- The nRF24L01 is a popular low-cost radio, broadcasting at 2.4GHz.  The protocol and the frequency spectrum used result in inferior transmission characteristics when compared with LoRa and RFM69 above -- typical distances achieved are under 200 meters line-of-site.
+<img src="pics/nordic.jpg" height=300>
+
 
 ### Cell phone (Serial)
 
