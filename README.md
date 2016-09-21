@@ -289,9 +289,12 @@ A common lithum ion battery with a capacity of 2200 mAh is easy to source for $1
 
 Further testing is needed to see if the Riffle's current approach to low-power datalogging -- turning off the SD card while sleeping -- is a reliable way of storing data, as it is not the recommended protocol for SD cards. 
 
-Some improvements to battery life might be achieved by using the on-board EEPROM memory to buffer data before writing to the SD card.  
+Some improvements to battery life might be achieved by using the on-board EEPROM memory to buffer data before writing to the SD card. For more discussion on this issues, see [this discussion on Public Lab](https://publiclab.org/notes/kinasmith/06-14-2016/fixed-riffle-sd-card-power-consumption#c15098).
 
 In general, optimizations of sub-circuit designs on the Riffle might be found that would push it further towards the limit suggested by the Arduino MIni Pro limit.
+
+Edward Mallon has posted his extensive invesigations into achieving low power modes with Arduino-based dataloggers [here](https://edwardmallon.wordpress.com/2015/11/05/a-diy-arduino-data-logger-build-instructions-part-4-power-optimization/).
+
 
 # Sensors and Modularity
 
